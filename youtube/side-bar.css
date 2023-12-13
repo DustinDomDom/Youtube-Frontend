@@ -1,0 +1,56 @@
+.side-nav-bar{
+    font-family:'Times New Roman', Times, serif;
+    font-size: 14px;
+    display: flex;
+    align-items: flex-start;
+    padding-left: 10px;
+    padding-right: 10px;
+    flex-direction: column;
+    background-color: black;
+}
+
+.top-side-bar,
+.bottom-side-bar{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: start;
+}
+
+.bottom-side-bar{
+    border-top: 1px solid darkgray;
+}
+
+.home-icon,
+.shorts-icon,
+.subscription-icon,
+.history-icon,
+.watch-later-icon,
+.like-video-icon{
+    margin: 10px;
+    color: white;
+}
+
+.home-text,
+.shorts-text,
+.subscription-text,
+.history-text,
+.watch-later-text,
+.like-text{
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    padding-left: 20px;
+    padding-right: 20px;
+    font-size: 13px;
+    font-weight: 400;
+}
+
+.header-icon,
+.header-text{
+    color: white;
+    font-family:'Roboto', sans-serif;
+    font-size: 15px;
+    font-weight: 700;
+    padding: 10px;
+}
+
