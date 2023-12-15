@@ -1,5 +1,9 @@
+div{
+    display: block;
+}
+
 .side-nav-bar{
-    font-family:'Times New Roman', Times, serif;
+    width: 250px;
     font-size: 14px;
     display: flex;
     align-items: flex-start;
@@ -10,33 +14,31 @@
 }
 
 .top-side-bar,
-.bottom-side-bar{
+.bottom-side-bar,
+.explore-side-bar,
+.more-side-bar,
+.setting-side-bar{
     display: flex;
     flex-direction: column;
     align-items: flex-start;
     justify-content: start;
+    padding: 10px;
 }
 
-.bottom-side-bar{
+.bottom-side-bar,
+.explore-side-bar,
+.more-side-bar,
+.setting-side-bar{
     border-top: 1px solid darkgray;
 }
 
-.home-icon,
-.shorts-icon,
-.subscription-icon,
-.history-icon,
-.watch-later-icon,
-.like-video-icon{
+.side-bar-icon
+{
     margin: 10px;
     color: white;
 }
 
-.home-text,
-.shorts-text,
-.subscription-text,
-.history-text,
-.watch-later-text,
-.like-text{
+.side-bar-text{
     color: white;
     font-family: 'Roboto', sans-serif;
     padding-left: 20px;
@@ -47,10 +49,11 @@
 
 .header-icon,
 .header-text{
+    align-items: center;
     color: white;
     font-family:'Roboto', sans-serif;
     font-size: 15px;
     font-weight: 700;
-    padding: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
 }
-
